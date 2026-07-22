@@ -1,167 +1,257 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Me — Hirdaya Shrestha</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me — Hirdaya Shrestha</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="theme-toggle" />
+    <div class="page-wrap">
+      <label for="theme-toggle" class="theme-toggle-label">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </label>
 
-<input type="checkbox" id="theme-toggle">
-<div class="page-wrap">
-
-  <label for="theme-toggle" class="theme-toggle-label">
-  <i class="fas fa-moon"></i>
-  <i class="fas fa-sun"></i>
-  </label>
-
-  <nav>
-    <div class="nav-inner">
-    <a href="/lab8/portfolio/" class="nav-logo">Hirdaya</a>
-      <ul class="nav-links">
-      <li><a href="/lab8/portfolio/">Home</a></li>
-      <li><a href="/lab8/portfolio/about.html" class="active">About</a></li>
-      <li><a href="/lab8/portfolio/resume.html">Resume</a></li>
-      <li><a href="/lab8/portfolio/projects.html">Projects</a></li>
-      <li><a href="/lab8/portfolio/contact.html">Contact</a></li>
-    </ul>
-      <button class="nav-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
-    </div>
-  </nav>
-
-  <!-- about hero -->
-  <section class="section" style="padding-top: 120px">
-  <div class="section-inner">
-    <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
-      <div class="about-text">
-      <p>I&rsquo;m a full-stack developer from Kathmandu, Nepal, passionate about building digital experiences that feel as good as they work. With a foundation in Flutter and React, I specialize in crafting cross-platform applications with pixel-perfect UIs and robust backends.</p>
-        <p>My journey started with C++ and algorithms, evolved through Kotlin and Android, and settled into Flutter for mobile and React/Next.js for the web. I believe great software is quiet — it does its job without getting in your way.</p>
-        <p>When I&rsquo;m not coding, I&rsquo;m probably tinkering with electronics, reading about CPU architecture, or experimenting with new tools.</p>
-    </div>
-      <div>
-        <div class="about-info">
-            <div class="item"><span class="label">Name:</span> <span class="value">Hirdaya Shrestha</span></div>
-            <div class="item"><span class="label">Email:</span> <span class="value">hirdaya098@gmail.com</span></div>
-          <div class="item"><span class="label">Location:</span> <span class="value">Kathmandu, Nepal</span></div>
-          <div class="item"><span class="label">Languages:</span> <span class="value">Nepali, English, Hindi</span></div>
-          <div class="item"><span class="label">Education:</span> <span class="value">BEIT, NCIT (2024–Present)</span></div>
-          <div class="item"><span class="label">Freelance:</span> <span class="value">Available</span></div>
+      <nav>
+        <div class="nav-inner">
+          <a href="/lab8/portfolio/" class="nav-logo">Hirdaya</a>
+          <ul class="nav-links">
+            <li><a href="/lab8/portfolio/">Home</a></li>
+            <li>
+              <a href="/lab8/portfolio/about.html" class="active">About</a>
+            </li>
+            <li><a href="/lab8/portfolio/resume.html">Resume</a></li>
+            <li><a href="/lab8/portfolio/projects.html">Projects</a></li>
+            <li><a href="/lab8/portfolio/contact.html">Contact</a></li>
+          </ul>
+          <button class="nav-toggle" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+          </button>
         </div>
-      </div>
-      </div>
-  </div>
-  </section>
+      </nav>
 
-  <!-- timeline -->
-  <section class="section" style="background:var(--bg2);transition:background .4s">
-  <div class="section-inner">
-    <h2 class="section-title">My Journey</h2>
-      <div class="timeline">
-      <div class="timeline-item fade-up">
-      <span class="year">2021</span>
-        <h4>Sample Entry 1</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="timeline-item fade-up">
-        <span class="year">2022</span>
-      <h4>Sample Entry 2</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-      <div class="timeline-item fade-up">
-        <span class="year">2023</span>
-      <h4>Sample Entry 3</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-        <div class="timeline-item fade-up">
-          <span class="year">2024</span>
-          <h4>Sample Entry 4</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <!-- about hero -->
+      <section class="section" style="padding-top: 120px">
+        <div class="section-inner">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I&rsquo;m a full-stack developer from Kathmandu, Nepal,
+                passionate about building digital experiences that feel as good
+                as they work. With a foundation in Flutter and React, I
+                specialize in crafting cross-platform applications with
+                pixel-perfect UIs and robust backends.
+              </p>
+              <p>
+                My journey started with C++ and algorithms, evolved through
+                Kotlin and Android, and settled into Flutter for mobile and
+                React/Next.js for the web. I believe great software is quiet —
+                it does its job without getting in your way.
+              </p>
+              <p>
+                When I&rsquo;m not coding, I&rsquo;m probably tinkering with
+                electronics, reading about CPU architecture, or experimenting
+                with new tools.
+              </p>
+            </div>
+            <div>
+              <div class="about-info">
+                <div class="item">
+                  <span class="label">Name:</span>
+                  <span class="value">Hirdaya Shrestha</span>
+                </div>
+                <div class="item">
+                  <span class="label">Email:</span>
+                  <span class="value">hirdaya098@gmail.com</span>
+                </div>
+                <div class="item">
+                  <span class="label">Location:</span>
+                  <span class="value">Kathmandu, Nepal</span>
+                </div>
+                <div class="item">
+                  <span class="label">Languages:</span>
+                  <span class="value">Nepali, English, Hindi</span>
+                </div>
+                <div class="item">
+                  <span class="label">Education:</span>
+                  <span class="value">BEIT, NCIT (2024–Present)</span>
+                </div>
+                <div class="item">
+                  <span class="label">Freelance:</span>
+                  <span class="value">Available</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="timeline-item fade-up">
-        <span class="year">2025</span>
-          <h4>Sample Entry 5</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </div>
-  </div>
-  </section>
+      </section>
 
-  <!-- skills tags -->
-  <section class="section">
-  <div class="section-inner">
-    <h2 class="section-title">Technologies</h2>
-      <div class="skills-tags" style="justify-content:center;gap:12px">
-            <span>Flutter</span><span>Dart</span><span>React</span><span>Next.js</span><span>TypeScript</span><span>JavaScript</span>
-            <span>Kotlin</span><span>C++</span><span>Python</span><span>Node.js</span><span>Firebase</span><span>Cloudflare</span>
-            <span>PostgreSQL</span><span>Git</span><span>Docker</span><span>Figma</span>
-      </div>
-  </div>
-  </section>
-
-  <!-- audio + modal -->
-  <section class="section" style="background:var(--bg2);transition:background .4s">
-  <div class="section-inner">
-    <h2 class="section-title">A Quick Message</h2>
-      <div style="text-align:center;max-width:500px;margin:0 auto">
-      <p style="color:var(--text2);margin-bottom:20px;font-size:14px">Listen to a short greeting or open the modal below.</p>
-
-    <audio controls style="width:100%;margin-bottom:20px">
-        <source src="https://github.com/rafaelreis-hotmart/Audio-Sample-files/raw/master/sample.mp3" type="audio/mpeg">
-        Your browser doesn't support audio.
-    </audio>
-
-      <input type="checkbox" id="modal1" class="modal-toggle">
-    <label for="modal1" class="modal-trigger"><i class="fas fa-info-circle"></i> Open Quick Message</label>
-      <div class="modal">
-        <div class="modal-content">
-        <label for="modal1" class="modal-close"><i class="fas fa-times"></i></label>
-          <h3>Hello There!</h3>
-        <p>Thanks for visiting my portfolio. I built this site with HTML, CSS, and JavaScript as a lab project — no frameworks, just the fundamentals. If you&rsquo;d like to work together, drop me a message on the contact page!</p>
-        <p style="font-weight:600;margin-bottom:0">— Hirdaya Shrestha</p>
-      </div>
-      </div>
-      </div>
-  </div>
-  </section>
-
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-col">
-      <h4>Hirdaya Shrestha</h4>
-      <p>Full-stack developer crafting refined digital experiences.</p>
-        <div class="footer-social">
-        <a href="https://github.com/Hirdaya-Shrestha/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/hridayashrestha" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a href="mailto:hirdaya098@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <!-- timeline -->
+      <section
+        class="section"
+        style="background: var(--bg2); transition: background 0.4s"
+      >
+        <div class="section-inner">
+          <h2 class="section-title">My Journey</h2>
+          <div class="timeline">
+            <div class="timeline-item fade-up">
+              <span class="year">2021</span>
+              <h4>Sample Entry 1</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="timeline-item fade-up">
+              <span class="year">2022</span>
+              <h4>Sample Entry 2</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="timeline-item fade-up">
+              <span class="year">2023</span>
+              <h4>Sample Entry 3</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="timeline-item fade-up">
+              <span class="year">2024</span>
+              <h4>Sample Entry 4</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="timeline-item fade-up">
+              <span class="year">2025</span>
+              <h4>Sample Entry 5</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
         </div>
-    </div>
-      <div class="footer-col">
-        <h4>Quick Links</h4>
-      <a href="/lab8/portfolio/">Home</a>
-        <a href="/lab8/portfolio/about.html">About</a>
-      <a href="/lab8/portfolio/resume.html">Resume</a>
-      <a href="/lab8/portfolio/projects.html">Projects</a>
-      <a href="/lab8/portfolio/contact.html">Contact</a>
-      </div>
-      <div class="footer-col">
-      <h4>Contact</h4>
-      <p><i class="fas fa-envelope" style="margin-right:6px"></i> hirdaya098@gmail.com</p>
-      <p><i class="fas fa-map-marker-alt" style="margin-right:6px"></i> Kathmandu, Nepal</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-    <p>&copy; 2026 Hirdaya Shrestha</p>
-    </div>
-  </footer>
-</div>
+      </section>
 
-<script src="js/script.js"></script>
-</body>
+      <!-- skills tags -->
+      <section class="section">
+        <div class="section-inner">
+          <h2 class="section-title">Technologies</h2>
+          <div class="skills-tags" style="justify-content: center; gap: 12px">
+            <span>Flutter</span><span>Dart</span><span>React</span
+            ><span>Next.js</span><span>TypeScript</span><span>JavaScript</span>
+            <span>Kotlin</span><span>C++</span><span>Python</span
+            ><span>Node.js</span><span>Firebase</span><span>Cloudflare</span>
+            <span>PostgreSQL</span><span>Git</span><span>Docker</span
+            ><span>Figma</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- audio + modal -->
+      <section
+        class="section"
+        style="background: var(--bg2); transition: background 0.4s"
+      >
+        <div class="section-inner">
+          <h2 class="section-title">A Quick Message</h2>
+          <div style="text-align: center; max-width: 500px; margin: 0 auto">
+            <p
+              style="color: var(--text2); margin-bottom: 20px; font-size: 14px"
+            >
+              Listen to a short greeting or open the modal below.
+            </p>
+
+            <audio controls style="width: 100%; margin-bottom: 20px">
+              <source
+                src="https://github.com/rafaelreis-hotmart/Audio-Sample-files/raw/master/sample.mp3"
+                type="audio/mpeg"
+              />
+              Your browser doesn't support audio.
+            </audio>
+
+            <input type="checkbox" id="modal1" class="modal-toggle" />
+            <label for="modal1" class="modal-trigger"
+              ><i class="fas fa-info-circle"></i> Open Quick Message</label
+            >
+            <div class="modal">
+              <div class="modal-content">
+                <label for="modal1" class="modal-close"
+                  ><i class="fas fa-times"></i
+                ></label>
+                <h3>Hello There!</h3>
+                <p>
+                  Thanks for visiting my portfolio. I built this site with HTML,
+                  CSS, and JavaScript as a lab project — no frameworks, just the
+                  fundamentals. If you&rsquo;d like to work together, drop me a
+                  message on the contact page!
+                </p>
+                <p style="font-weight: 600; margin-bottom: 0">
+                  — Hirdaya Shrestha
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-inner">
+          <div class="footer-col">
+            <h4>Hirdaya Shrestha</h4>
+            <p>Full-stack developer crafting refined digital experiences.</p>
+            <div class="footer-social">
+              <a
+                href="https://github.com/Hirdaya-Shrestha/"
+                target="_blank"
+                aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://linkedin.com/in/hridayashrestha"
+                target="_blank"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="mailto:hirdaya098@gmail.com" aria-label="Email"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="/lab8/portfolio/">Home</a>
+            <a href="/lab8/portfolio/about.html">About</a>
+            <a href="/lab8/portfolio/resume.html">Resume</a>
+            <a href="/lab8/portfolio/projects.html">Projects</a>
+            <a href="/lab8/portfolio/contact.html">Contact</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <p>
+              <i class="fas fa-envelope" style="margin-right: 6px"></i>
+              hirdaya098@gmail.com
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt" style="margin-right: 6px"></i>
+              Kathmandu, Nepal
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Hirdaya Shrestha</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>

@@ -1,161 +1,325 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact — Hirdaya Shrestha</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✉️</text></svg>">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Hirdaya Shrestha</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✉️</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="theme-toggle" />
+    <div class="page-wrap">
+      <label for="theme-toggle" class="theme-toggle-label">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </label>
 
-<input type="checkbox" id="theme-toggle">
-<div class="page-wrap">
+      <nav>
+        <div class="nav-inner">
+          <a href="/lab8/portfolio/" class="nav-logo">Hirdaya</a>
+          <ul class="nav-links">
+            <li><a href="/lab8/portfolio/">Home</a></li>
+            <li><a href="/lab8/portfolio/about.html">About</a></li>
+            <li><a href="/lab8/portfolio/resume.html">Resume</a></li>
+            <li><a href="/lab8/portfolio/projects.html">Projects</a></li>
+            <li>
+              <a href="/lab8/portfolio/contact.html" class="active">Contact</a>
+            </li>
+          </ul>
+          <button class="nav-toggle" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
 
-  <label for="theme-toggle" class="theme-toggle-label">
-  <i class="fas fa-moon"></i>
-  <i class="fas fa-sun"></i>
-  </label>
-
-  <nav>
-  <div class="nav-inner">
-    <a href="/lab8/portfolio/" class="nav-logo">Hirdaya</a>
-    <ul class="nav-links">
-    <li><a href="/lab8/portfolio/">Home</a></li>
-    <li><a href="/lab8/portfolio/about.html">About</a></li>
-    <li><a href="/lab8/portfolio/resume.html">Resume</a></li>
-    <li><a href="/lab8/portfolio/projects.html">Projects</a></li>
-    <li><a href="/lab8/portfolio/contact.html" class="active">Contact</a></li>
-    </ul>
-    <button class="nav-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
-  </div>
-  </nav>
-
-  <div class="resume-header">
-  <h1>Get in Touch</h1>
-  <p>Have a project in mind or just want to say hello? Drop me a message.</p>
-  </div>
-
-  <!-- contact + login forms -->
-  <section class="section" style="padding-top:0">
-    <div class="section-inner">
-    <div class="form-grid">
-      <div class="form-card fade-up">
-      <h3><i class="fas fa-paper-plane" style="margin-right:8px;color:var(--accent1)"></i> Send a Message</h3>
-      <form onsubmit="alert('Message sent! (Demo)');return false">
-        <div class="form-row">
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" placeholder="John Doe" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Your Email</label>
-          <input type="email" id="email" placeholder="john@example.com" required>
-        </div>
-        </div>
-        <div class="form-group">
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" placeholder="Project Collaboration" required>
-        </div>
-        <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" placeholder="Tell me about your project..." required></textarea>
-        </div>
-        <button type="submit" class="btn-submit"><i class="fas fa-paper-plane"></i> Send Message</button>
-      </form>
+      <div class="resume-header">
+        <h1>Get in Touch</h1>
+        <p>
+          Have a project in mind or just want to say hello? Drop me a message.
+        </p>
       </div>
 
-      <div class="form-card fade-up">
-      <h3><i class="fas fa-lock" style="margin-right:8px;color:var(--accent1)"></i> Login</h3>
-      <form onsubmit="alert('Logged in! (Demo)');return false">
-        <div class="form-group">
-        <label for="login-email">Email</label>
-        <input type="email" id="login-email" placeholder="you@example.com" required>
+      <!-- contact + login forms -->
+      <section class="section" style="padding-top: 0">
+        <div class="section-inner">
+          <div class="form-grid">
+            <div class="form-card fade-up">
+              <h3>
+                <i
+                  class="fas fa-paper-plane"
+                  style="margin-right: 8px; color: var(--accent1)"
+                ></i>
+                Send a Message
+              </h3>
+              <form
+                onsubmit="
+                  alert('Message sent! (Demo)');
+                  return false;
+                "
+              >
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="John Doe"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="john@example.com"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    placeholder="Project Collaboration"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    placeholder="Tell me about your project..."
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn-submit">
+                  <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+              </form>
+            </div>
+
+            <div class="form-card fade-up">
+              <h3>
+                <i
+                  class="fas fa-lock"
+                  style="margin-right: 8px; color: var(--accent1)"
+                ></i>
+                Login
+              </h3>
+              <form
+                onsubmit="
+                  alert('Logged in! (Demo)');
+                  return false;
+                "
+              >
+                <div class="form-group">
+                  <label for="login-email">Email</label>
+                  <input
+                    type="email"
+                    id="login-email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="login-pass">Password</label>
+                  <input
+                    type="password"
+                    id="login-pass"
+                    placeholder="••••••••"
+                    required
+                  />
+                </div>
+                <div
+                  class="form-group"
+                  style="display: flex; align-items: center; gap: 8px"
+                >
+                  <input type="checkbox" id="remember" style="width: auto" />
+                  <label
+                    for="remember"
+                    style="margin: 0; font-size: 14px; cursor: pointer"
+                    >Remember me</label
+                  >
+                </div>
+                <button
+                  type="submit"
+                  class="btn-submit"
+                  style="background: var(--grad2)"
+                >
+                  <i class="fas fa-sign-in-alt"></i> Sign In
+                </button>
+              </form>
+              <p
+                style="
+                  text-align: center;
+                  margin-top: 16px;
+                  font-size: 13px;
+                  color: var(--text2);
+                "
+              >
+                Don&rsquo;t have an account?
+                <a href="#" style="color: var(--accent1); text-decoration: none"
+                  >Register</a
+                >
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="form-group">
-        <label for="login-pass">Password</label>
-        <input type="password" id="login-pass" placeholder="••••••••" required>
+      </section>
+
+      <!-- map -->
+      <section
+        class="section"
+        style="background: var(--bg2); transition: background 0.4s"
+      >
+        <div class="section-inner">
+          <h2 class="section-title">Find Me</h2>
+          <p
+            style="
+              text-align: center;
+              color: var(--text2);
+              margin-bottom: 8px;
+              font-size: 14px;
+            "
+          >
+            Nepal College of Information Technology — where I study.
+          </p>
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35706.11970202678!2d85.31195850072358!3d27.671879711114432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19e8af4a5fe3%3A0x963d00cdf478c6b6!2sNepal%20College%20of%20Information%20Technology!5e0!3m2!1sen!2snp!4v1719372127955!5m2!1sen!2snp"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="NCIT Map"
+            ></iframe>
+          </div>
         </div>
-        <div class="form-group" style="display:flex;align-items:center;gap:8px">
-        <input type="checkbox" id="remember" style="width:auto">
-        <label for="remember" style="margin:0;font-size:14px;cursor:pointer">Remember me</label>
+      </section>
+
+      <!-- contact info cards -->
+      <section class="section">
+        <div class="section-inner">
+          <h2 class="section-title">Other Ways to Reach Me</h2>
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+              gap: 24px;
+              text-align: center;
+            "
+          >
+            <div class="form-card fade-up" style="padding: 24px">
+              <div
+                style="
+                  font-size: 32px;
+                  margin-bottom: 12px;
+                  color: var(--accent1);
+                  animation: bounce 2s ease infinite;
+                "
+              >
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h4>Email</h4>
+              <p style="font-size: 14px; color: var(--text2)">
+                hirdaya098@gmail.com
+              </p>
+            </div>
+            <div class="form-card fade-up" style="padding: 24px">
+              <div
+                style="
+                  font-size: 32px;
+                  margin-bottom: 12px;
+                  color: var(--accent2);
+                  animation: bounce 2s ease infinite;
+                  animation-delay: 0.3s;
+                "
+              >
+                <i class="fab fa-github"></i>
+              </div>
+              <h4>GitHub</h4>
+              <p style="font-size: 14px; color: var(--text2)">
+                Hirdaya-Shrestha
+              </p>
+            </div>
+            <div class="form-card fade-up" style="padding: 24px">
+              <div
+                style="
+                  font-size: 32px;
+                  margin-bottom: 12px;
+                  color: var(--accent1);
+                  animation: bounce 2s ease infinite;
+                  animation-delay: 0.6s;
+                "
+              >
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <h4>LinkedIn</h4>
+              <p style="font-size: 14px; color: var(--text2)">
+                hridayashrestha
+              </p>
+            </div>
+          </div>
         </div>
-        <button type="submit" class="btn-submit" style="background:var(--grad2)"><i class="fas fa-sign-in-alt"></i> Sign In</button>
-      </form>
-      <p style="text-align:center;margin-top:16px;font-size:13px;color:var(--text2)">Don&rsquo;t have an account? <a href="#" style="color:var(--accent1);text-decoration:none">Register</a></p>
-      </div>
-    </div>
-    </div>
-  </section>
+      </section>
 
-  <!-- map -->
-  <section class="section" style="background:var(--bg2);transition:background .4s">
-    <div class="section-inner">
-    <h2 class="section-title">Find Me</h2>
-    <p style="text-align:center;color:var(--text2);margin-bottom:8px;font-size:14px">Nepal College of Information Technology — where I study.</p>
-    <div class="map-wrap">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35706.11970202678!2d85.31195850072358!3d27.671879711114432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19e8af4a5fe3%3A0x963d00cdf478c6b6!2sNepal%20College%20of%20Information%20Technology!5e0!3m2!1sen!2snp!4v1719372127955!5m2!1sen!2snp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="NCIT Map"></iframe>
+      <footer>
+        <div class="footer-inner">
+          <div class="footer-col">
+            <h4>Hirdaya Shrestha</h4>
+            <p>Full-stack developer crafting refined digital experiences.</p>
+            <div class="footer-social">
+              <a
+                href="https://github.com/Hirdaya-Shrestha/"
+                target="_blank"
+                aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://linkedin.com/in/hridayashrestha"
+                target="_blank"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="mailto:hirdaya098@gmail.com" aria-label="Email"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="/lab8/portfolio/">Home</a>
+            <a href="/lab8/portfolio/about.html">About</a>
+            <a href="/lab8/portfolio/resume.html">Resume</a>
+            <a href="/lab8/portfolio/projects.html">Projects</a>
+            <a href="/lab8/portfolio/contact.html">Contact</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <p><i class="fas fa-envelope"></i> hirdaya098@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+          </div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 Hirdaya Shrestha</p></div>
+      </footer>
     </div>
-    </div>
-  </section>
 
-  <!-- contact info cards -->
-  <section class="section">
-  <div class="section-inner">
-    <h2 class="section-title">Other Ways to Reach Me</h2>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;text-align:center">
-    <div class="form-card fade-up" style="padding:24px">
-      <div style="font-size:32px;margin-bottom:12px;color:var(--accent1);animation:bounce 2s ease infinite"><i class="fas fa-envelope"></i></div>
-      <h4>Email</h4>
-      <p style="font-size:14px;color:var(--text2)">hirdaya098@gmail.com</p>
-    </div>
-    <div class="form-card fade-up" style="padding:24px">
-      <div style="font-size:32px;margin-bottom:12px;color:var(--accent2);animation:bounce 2s ease infinite;animation-delay:.3s"><i class="fab fa-github"></i></div>
-      <h4>GitHub</h4>
-      <p style="font-size:14px;color:var(--text2)">Hirdaya-Shrestha</p>
-    </div>
-    <div class="form-card fade-up" style="padding:24px">
-      <div style="font-size:32px;margin-bottom:12px;color:var(--accent1);animation:bounce 2s ease infinite;animation-delay:.6s"><i class="fab fa-linkedin"></i></div>
-      <h4>LinkedIn</h4>
-      <p style="font-size:14px;color:var(--text2)">hridayashrestha</p>
-    </div>
-    </div>
-  </div>
-  </section>
-
-  <footer>
-    <div class="footer-inner">
-    <div class="footer-col">
-      <h4>Hirdaya Shrestha</h4>
-      <p>Full-stack developer crafting refined digital experiences.</p>
-      <div class="footer-social">
-      <a href="https://github.com/Hirdaya-Shrestha/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/hridayashrestha" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-      <a href="mailto:hirdaya098@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-      </div>
-    </div>
-    <div class="footer-col">
-      <h4>Quick Links</h4>
-      <a href="/lab8/portfolio/">Home</a>
-      <a href="/lab8/portfolio/about.html">About</a>
-      <a href="/lab8/portfolio/resume.html">Resume</a>
-      <a href="/lab8/portfolio/projects.html">Projects</a>
-      <a href="/lab8/portfolio/contact.html">Contact</a>
-    </div>
-    <div class="footer-col">
-      <h4>Contact</h4>
-      <p><i class="fas fa-envelope"></i> hirdaya098@gmail.com</p>
-      <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
-    </div>
-    </div>
-    <div class="footer-bottom"><p>&copy; 2026 Hirdaya Shrestha</p></div>
-  </footer>
-</div>
-
-<script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
