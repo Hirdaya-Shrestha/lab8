@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Hirdaya Shrestha</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📄</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<input type="checkbox" id="theme-toggle">
+<div class="page-wrap">
+
+  <label for="theme-toggle" class="theme-toggle-label">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+  </label>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/lab8/portfolio/" class="nav-logo">Hirdaya</a>
+      <ul class="nav-links">
+        <li><a href="/lab8/portfolio/">Home</a></li>
+        <li><a href="/lab8/portfolio/about.html">About</a></li>
+        <li><a href="/lab8/portfolio/resume.html" class="active">Resume</a></li>
+        <li><a href="/lab8/portfolio/projects.html">Projects</a></li>
+        <li><a href="/lab8/portfolio/contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+    </div>
+  </nav>
+
+  <div class="resume-header">
+<h1>Resume</h1>
+  <p>Education, experience, and technical skills — download a printable copy below.</p>
+    <a href="#" class="download-btn" onclick="var b=document.createElement('a');b.href='data:text/plain;charset=utf-8,resume%20hehe';b.download='demo.txt';b.click();return false"><i class="fas fa-download"></i> Download Resume</a>
+  </div>
+
+  <!-- education table -->
+  <section class="section" style="padding-top:0">
+  <div class="section-inner">
+    <h2 class="section-title">Education</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Institution</th><th>Degree</th><th>Field</th><th>Year</th></tr></thead>
+          <tbody>
+            <tr><td>Nepal College of Information Technology</td><td>Bachelor</td><td>BEIT (Information Technology)</td><td>2022–2026</td></tr>
+            <tr><td>HSEB / NEB</td><td>Higher Secondary</td><td>Science (+2)</td><td>2020–2022</td></tr>
+          <tr><td>Shree Saraswati Higher Secondary School</td><td>SEE</td><td>—</td><td>2020</td></tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+  </section>
+
+  <section class="section" style="padding-top:0;background:var(--bg2);transition:background .4s">
+  <div class="section-inner">
+    <h2 class="section-title">Experience</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Role</th><th>Organization</th><th>Duration</th><th>Key Work</th></tr></thead>
+          <tbody>
+          <tr><td>Flutter Developer</td><td>Freelance / Self</td><td>2023–Present</td><td>Built &amp; published 5+ cross-platform apps</td></tr>
+            <tr><td>Open Source Contributor</td><td>GitHub</td><td>2024–Present</td><td>Contributed to Flutter packages &amp; tools</td></tr>
+          <tr><td>Android Developer Intern</td><td>—</td><td>2023</td><td>Developed Kotlin-based Android utilities</td></tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+  </section>
+
+  <!-- skill meters -->
+  <section class="section" style="padding-top:0">
+  <div class="section-inner">
+      <h2 class="section-title">Skill Proficiency</h2>
+    <div style="max-width:600px;margin:0 auto">
+      <div class="skill-item"><div class="head"><span>Flutter &amp; Dart</span><span>85%</span></div><div class="progress-bar"><div class="progress-fill flutter"></div></div></div>
+      <div class="skill-item"><div class="head"><span>React &amp; Next.js</span><span>75%</span></div><div class="progress-bar"><div class="progress-fill react"></div></div></div>
+        <div class="skill-item"><div class="head"><span>JavaScript / TypeScript</span><span>80%</span></div><div class="progress-bar"><div class="progress-fill js"></div></div></div>
+      <div class="skill-item"><div class="head"><span>Python</span><span>65%</span></div><div class="progress-bar"><div class="progress-fill python"></div></div></div>
+      <div class="skill-item"><div class="head"><span>Node.js</span><span>70%</span></div><div class="progress-bar"><div class="progress-fill node"></div></div></div>
+      <div class="skill-item"><div class="head"><span>SQL / Databases</span><span>60%</span></div><div class="progress-bar"><div class="progress-fill sql"></div></div></div>
+    </div>
+  </div>
+  </section>
+
+  <!-- timeline -->
+  <section class="section" style="background:var(--bg2);transition:background .4s">
+  <div class="section-inner">
+    <h2 class="section-title">Career Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item fade-up"><span class="year">2021</span><h4>Demo Event 1</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        <div class="timeline-item fade-up"><span class="year">2022</span><h4>Demo Event 2</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        <div class="timeline-item fade-up"><span class="year">2023</span><h4>Demo Event 3</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+      <div class="timeline-item fade-up"><span class="year">2024</span><h4>Demo Event 4</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        <div class="timeline-item fade-up"><span class="year">2025</span><h4>Demo Event 5</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+    </div>
+  </div>
+  </section>
+
+  <footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>Hirdaya Shrestha</h4>
+      <p>Full-stack developer crafting refined digital experiences.</p>
+      <div class="footer-social">
+      <a href="https://github.com/Hirdaya-Shrestha/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/hridayashrestha" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:hirdaya098@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+      <div class="footer-col">
+      <h4>Quick Links</h4>
+        <a href="/lab8/portfolio/">Home</a>
+      <a href="/lab8/portfolio/about.html">About</a>
+        <a href="/lab8/portfolio/resume.html">Resume</a>
+      <a href="/lab8/portfolio/projects.html">Projects</a>
+      <a href="/lab8/portfolio/contact.html">Contact</a>
+    </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+      <p><i class="fas fa-envelope"></i> hirdaya098@gmail.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+    </div>
+  </div>
+    <div class="footer-bottom"><p>&copy; 2026 Hirdaya Shrestha</p></div>
+  </footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

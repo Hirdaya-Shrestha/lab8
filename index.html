@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hirdaya Shrestha - Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<input type="checkbox" id="theme-toggle">
+<div class="page-wrap">
+
+  <label for="theme-toggle" class="theme-toggle-label">
+  <i class="fas fa-moon"></i>
+  <i class="fas fa-sun"></i>
+  </label>
+
+  <!-- nav -->
+  <nav>
+  <div class="nav-inner">
+    <a href="/lab8/portfolio/" class="nav-logo">Hirdaya</a>
+    <ul class="nav-links">
+    <li><a href="/lab8/portfolio/" class="active">Home</a></li>
+    <li><a href="/lab8/portfolio/about.html">About</a></li>
+    <li><a href="/lab8/portfolio/resume.html">Resume</a></li>
+    <li><a href="/lab8/portfolio/projects.html">Projects</a></li>
+    <li><a href="/lab8/portfolio/contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+  </div>
+  </nav>
+
+  <!-- hero -->
+  <section class="hero">
+  <div class="hero-content">
+    <img class="hero-img" src="images/me.webp" alt="Hirdaya Shrestha">
+    <h1>Hirdaya Shrestha</h1>
+    <p class="subtitle">Full-Stack Developer &middot; Flutter &amp; React &middot; Crafting Digital Experiences</p>
+    <div class="hero-btns">
+    <a href="/lab8/portfolio/projects.html" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+    <a href="/lab8/portfolio/contact.html" class="btn btn-outline"><i class="fas fa-envelope"></i> Get in Touch</a>
+    </div>
+    <div class="hero-stats">
+    <div class="stat"><div class="num">3+</div><div class="label">Years Coding</div></div>
+    <div class="stat"><div class="num">12+</div><div class="label">Projects</div></div>
+    <div class="stat"><div class="num">5</div><div class="label">Apps Shipped</div></div>
+    </div>
+  </div>
+  </section>
+
+  <!-- skills -->
+  <section class="section" style="background:var(--bg2);transition:background .4s">
+  <div class="section-inner">
+    <h2 class="section-title">Skills &amp; Expertise</h2>
+    <div class="skills-grid">
+    <div class="skill-item"><div class="head"><span>HTML5</span><span>95%</span></div><div class="progress-bar"><div class="progress-fill html"></div></div></div>
+    <div class="skill-item"><div class="head"><span>CSS3</span><span>90%</span></div><div class="progress-bar"><div class="progress-fill css"></div></div></div>
+    <div class="skill-item"><div class="head"><span>JavaScript</span><span>80%</span></div><div class="progress-bar"><div class="progress-fill js"></div></div></div>
+    <div class="skill-item"><div class="head"><span>React</span><span>75%</span></div><div class="progress-bar"><div class="progress-fill react"></div></div></div>
+    <div class="skill-item"><div class="head"><span>Flutter</span><span>85%</span></div><div class="progress-bar"><div class="progress-fill flutter"></div></div></div>
+    <div class="skill-item"><div class="head"><span>Node.js</span><span>70%</span></div><div class="progress-bar"><div class="progress-fill node"></div></div></div>
+    </div>
+  </div>
+  </section>
+
+  <!-- projects -->
+  <section class="section">
+  <div class="section-inner">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+    <div class="project-card fade-up">
+      <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=200&fit=crop" alt="Project" loading="lazy">
+      <div class="body"><h3>Links Vault</h3><p>Android app to save, organize, and share links with tags and categories.</p><div class="tags"><span>Flutter</span><span>Firebase</span></div><div class="links"><a href="https://play.google.com/store/apps/details?id=com.hirdaya.linksvault" target="_blank"><i class="fab fa-google-play"></i> Play Store</a></div></div>
+    </div>
+    <div class="project-card fade-up">
+      <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=200&fit=crop" alt="Project" loading="lazy">
+      <div class="body"><h3>Demo App Alpha</h3><p>A sample project showcasing the skills learned in this lab — HTML, CSS, JS, and responsive design.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div><div class="links"><a href="/lab8/portfolio/projects.html" class="more">Details →</a></div></div>
+    </div>
+    <div class="project-card fade-up">
+      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop" alt="Project" loading="lazy">
+      <div class="body"><h3>Demo App Beta</h3><p>Another sample project with a contact form, CSS table, and a fully responsive layout.</p><div class="tags"><span>HTML</span><span>CSS</span></div><div class="links"><a href="/lab8/portfolio/projects.html" class="more">Details →</a></div></div>
+    </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- testimonials -->
+  <section class="section" style="background:var(--bg2);transition:background .4s">
+  <div class="section-inner">
+    <h2 class="section-title">What People Say</h2>
+    <div class="testimonials">
+    <div class="testimonial-card fade-up">
+      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+      <p>"An exceptionally talented developer with a keen eye for design. His Flutter apps are polished and performant."</p>
+      <div class="author">
+      <img src="https://ui-avatars.com/api/?name=Kriti+Shrestha&size=40&background=764ba2&color=fff" alt="Kriti Shrestha">
+      <div><div class="name">Kriti Shrestha</div><div class="role">Senior Developer</div></div>
+      </div>
+    </div>
+    <div class="testimonial-card fade-up">
+      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+      <p>"Great attention to detail and always delivers on time. His understanding of modern web technologies is impressive."</p>
+      <div class="author">
+      <img src="https://ui-avatars.com/api/?name=Amrit+KC&size=40&background=667eea&color=fff" alt="Amrit KC">
+      <div><div class="name">Amrit KC</div><div class="role">Product Manager</div></div>
+      </div>
+    </div>
+    <div class="testimonial-card fade-up">
+      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+      <p>"Building an app with Hirdaya was a seamless experience. His code is clean, documented, and easy to maintain."</p>
+      <div class="author">
+      <img src="https://ui-avatars.com/api/?name=Devaki+Nandan&size=40&background=f5576c&color=fff" alt="Devaki Nandan">
+      <div><div class="name">Devaki Nandan</div><div class="role">Open Source Contributor</div></div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+      <h4>Hirdaya Shrestha</h4>
+      <p>Full-stack developer crafting refined digital experiences with Flutter, React, and modern cloud infrastructure.</p>
+      <div class="footer-social">
+        <a href="https://github.com/Hirdaya-Shrestha/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/hridayashrestha" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:hirdaya098@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      </div>
+      <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="/lab8/portfolio/">Home</a>
+      <a href="/lab8/portfolio/about.html">About</a>
+      <a href="/lab8/portfolio/resume.html">Resume</a>
+      <a href="/lab8/portfolio/projects.html">Projects</a>
+      <a href="/lab8/portfolio/contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+      <h4>Contact</h4>
+      <p><i class="fas fa-envelope" style="margin-right:6px"></i> hirdaya098@gmail.com</p>
+      <p><i class="fas fa-map-marker-alt" style="margin-right:6px"></i> Kathmandu, Nepal</p>
+      <p><i class="fas fa-phone" style="margin-right:6px"></i> +977-98XXXXXXXX</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+    <p>&copy; 2026 Hirdaya Shrestha. Built with <i class="fas fa-heart" style="color:#f5576c"></i></p>
+    </div>
+  </footer>
+
+  <!-- floating social icons -->
+  <div class="floating-icons">
+    <a href="https://github.com/Hirdaya-Shrestha/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/hridayashrestha" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="mailto:hirdaya098@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+  </div>
+
+</div><!-- /page-wrap -->
+
+<script src="js/script.js"></script>
+</body>
+</html>
